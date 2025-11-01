@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb.born96.fun
+REDIS_HOST: redis.born96.fun
+CATALOGUE_HOST: catalogue.born96.fun
+CART_HOST: cart.born96.fun
+USER_HOST: user.born96.fun
+RABBITMQ_HOST: rabbitmq.born96.fun
+MYSQL_HOST: mysql.born96.fun
+SHIPPING_HOST: shipping.born96.fun
+PAYMENT_HOST: payment.born96.fun
