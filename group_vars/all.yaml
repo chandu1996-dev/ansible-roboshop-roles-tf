@@ -1,9 +1,9 @@
-MONGODB_HOST: mongodb.born96.fun
-REDIS_HOST: redis.born96.fun
-CATALOGUE_HOST: catalogue.born96.fun
-CART_HOST: cart.born96.fun
-USER_HOST: user.born96.fun
-RABBITMQ_HOST: rabbitmq.born96.fun
-MYSQL_HOST: mysql.born96.fun
-SHIPPING_HOST: shipping.born96.fun
-PAYMENT_HOST: payment.born96.fun
+MONGODB_HOST: mongodb-{{ env }}.born96.fun # mongodb-dev.born96.fun
+REDIS_HOST: redis-{{ env }}.born96.fun
+CATALOGUE_HOST: catalogue-{{ env }}.born96.fun
+CART_HOST: cart-{{ env }}.born96.fun
+USER_HOST: user-{{ env }}.born96.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.born96.fun
+MYSQL_HOST: mysql-{{ env }}.born96.fun
+SHIPPING_HOST: shipping-{{ env }}.born96.fun
+PAYMENT_HOST: payment-{{ env }}.born96.fun
